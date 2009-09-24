@@ -1,0 +1,5 @@
+The image used in this gadget was created by Zack Rusin 
+http://zrusin.blogspot.com/2007/09/git-cheat-sheet.html
+
+The git logo was taken from the official git website:
+http://git-scm.com/
