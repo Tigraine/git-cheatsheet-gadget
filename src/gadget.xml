@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>git-cheatsheet</name>
+  <namespace>windows.sdk</namespace>
+  <version>1.0.0.0</version>
+  <author name="Daniel Hölbling">
+    <info url="http://www.tigraine.at" />
+    <logo src="git-logo.png" />
+  </author>
+  <copyright>&#169; Daniel Hölbling.</copyright>
+  <description>Displays a GIT cheatsheet on the Desktop.</description>
+  <icons>
+    <icon height="48" width="48" src="icon.png" />
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="sidebar.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+      <defaultImage src="git-logo.png" />
+    </host>
+  </hosts>
+</gadget>
